@@ -20,6 +20,17 @@ Innan du provar detta projekt, se till att du har följande förutsättningar:
 ```bash
 npm install
 
+```
+
 ## Konfigurera AWS-tjänster
 
 För att konfigurera de AWS-tjänster som projektet använder, måste du skapa en serverless.yml-fil med den nödvändiga konfigurationen. Du kan anpassa denna fil efter dina behov och preferenser.
+
+## Deploya projektet
+
+När du har konfigurerat projektet och AWS-tjänsterna kan du deploya det med Serverless Framework genom att köra:
+
+```bash
+serverless deploy
+
+```
